@@ -20,6 +20,7 @@ body{
     background-color: white;
     height: 8rem;
 }
+
 .logoBox{
     display: flex;
 
@@ -51,10 +52,17 @@ body{
     
 
 }
+.serachBox i{
+    background-color: #00ac4e;
+    width: 2rem;
+    height: 3rem;
+    padding-top: 1rem;
+
+}
 .serachBox input{
     width: 25rem;
     height: 3rem;
-    margin: 3rem 0;
+    margin: 3rem 0; 
     background-color: rgb(216, 211, 211);
     border: none;
     padding-left: 1rem;
@@ -127,9 +135,19 @@ body{
     height: 17rem;
 }
 
+
 .bestSel{
     text-align: center;
     font-size: 2.5rem;
     margin: 2rem;
     font-weight: 5rem;
+    
+}
+.cards{
+    background-color: aqua;
+    height: 20rem;
+}
+.mainFooter{
+    background-color: aqua;
+    
 }
