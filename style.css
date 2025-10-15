@@ -5,7 +5,10 @@
 }
 body{
     background-color: rgb(236, 234, 229);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html {
+  scroll-behavior:smooth;
 }
 .navHeading{
     background-color:#00ac4e;
@@ -128,7 +131,6 @@ body{
     margin-left: 1rem;
     margin-top: 2rem;
     border-radius: 5px;
-
 }
 .mainImgDiv{
     width: 40rem;
@@ -137,7 +139,7 @@ body{
 /* information div css*/
 
 .paraGraph{
-    width: 100%;
+    width: 100%;  font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
 .pcontain{
@@ -156,7 +158,7 @@ body{
     padding: 0 3rem;
     line-height: 2rem;
     margin-bottom: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+  
     font-size: 20px;
 }
 .pcontain .readBt{
