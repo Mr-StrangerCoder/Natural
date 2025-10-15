@@ -147,7 +147,99 @@ body{
     background-color: aqua;
     height: 20rem;
 }
+.greenfooter{
+    background-color: #13a538;
+}
+.child{
+    text-align: center;
+}
+.child img{
+    width: 15rem;
+    height: 4rem;
+}
+.child p button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 10rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.child .available{
+    border-bottom: 2px solid white;
+}
+
+/* footer */
+
+.foot{
+    background-color: #39393f;
+}
 .mainFooter{
-    background-color: aqua;
+    background-color:#39393f;
+    display: flex;
+    justify-content: space-between;
+    color:white;   
+    padding: 6rem 6rem 2rem 6rem;
+}
+.mainFooter h3{
+    color: gray;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: medium;
+}
+
+.contacUS ,.about p a, .others p a, .shop p a{
+    color: white;
+    text-decoration: none;
+    line-height: 2rem;
+}
+
+
+.contacUS p a:hover{
+    color: green;
+}
+.about p a:hover{
+    color: green;
+}
+.others p a:hover{
+    color: green;
+}
+.shop p a:hover{
+    color: green;
+}
+.contacUS{
+    flex: 30%;
+
     
+}
+.about{
+    flex: 30%;
+}
+.others{
+    flex: 20%;
+}
+.shop{
+    flex: 20%;
+}
+
+.socialIcons{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    padding-bottom: 4rem;
+    color: rgb(248, 244, 244);
+    
+}
+.socialIcons div{
+    padding: 7px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: rgba(31, 35, 43, 0.76);
+}
+.socialIcons div:hover{
+    color: green;
+    background-color: white;
 }
