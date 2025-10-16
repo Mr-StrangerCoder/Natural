@@ -164,7 +164,7 @@ html {
 .ProductContainer{
     border: 1px solid red;
     width: 85%;
-    margin: 2rem auto;
+    margin: 0rem auto;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -174,8 +174,9 @@ html {
     border: 1px solid blue;
     width: 23%;
     height: 22rem;
-    margin-left: 10px;
+    margin-left: 13px;
     background-color: white;
+    margin-bottom: 2rem;
 }
 .iceCreamCard img{
     width: 100%;
@@ -186,7 +187,7 @@ html {
 } 
 .iceCreamCard div{
     text-align: center;
-    border: 1px solid navy;
+    border: 1px solid rgb(128, 0, 96);
     display: none;
 }
 .iceCreamCard:hover div{
@@ -211,7 +212,81 @@ html {
 .iceCreamCard div .readMore:hover{
     background-color: #00ac4e;
 }
+.now{
+    width: 100%;
+    border: 1px solid greenyellow;
+    margin-bottom: 5rem;
+}
+.nowJs{
+    width: 85%;
+    margin: 2rem auto;
+    border: 1px solid orange;
+}
+.nowJs img{
+    width: 100%;
+}
 
+/* INGREDIENT STORY css */
+
+.ing{
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 25px;
+    
+}
+.ingrStory{
+    border: 1px solid black;
+    height: 25rem;
+    margin-top: 5rem;
+}
+.conting{
+    border: 1px solid rgb(255, 0, 13);
+    height:25rem;
+    margin: 0px auto;
+    width: 85%;
+    display: flex;
+    gap: 20px;
+}
+.sotryCont{
+    border: 1px solid purple;
+    width: 30%;
+    height: 25rem;
+    margin: 0rem auto;
+    text-align: center;
+}
+.sotryCont img{
+    width: 20%;
+    margin-bottom: 1rem;
+}
+.sotryCont p{
+    font-size: 1.2rem;
+    color: gray;
+}
+.sotryCont img:hover{
+    width: 19%;
+}
+.follow{
+    text-align: center;
+    font-size: 20px;
+}
+.follow a{
+    text-decoration: none;
+}
+.follow a b{
+    color: black;
+}
+.insta{
+    border: 2px solid navy;
+    height: 15rem;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly
+}
+.linkImg{
+    border: 1px solid red;
+    height: 15rem;
+    width: 13rem;
+}
 /* information div css*/
 
 .paraGraph {
