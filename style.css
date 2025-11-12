@@ -290,23 +290,50 @@ html {
     display: flex;
     gap: 20px;
 }
-.sotryCont{
+.storyCont{
     border: 1px solid purple;
     width: 30%;
     height: 25rem;
     margin: 0rem auto;
     text-align: center;
 }
-.sotryCont img{
+.transform{
+    border: 1px solid green;
+}
+
+.transform img{
     width: 20%;
     margin-bottom: 1rem;
 }
-.sotryCont p{
+.storyCont p{
     font-size: 1.2rem;
     color: gray;
 }
-.sotryCont img:hover{
-    width: 19%;
+
+.transform img{
+     transition: transform 0.3s ease;
+    
+    
+}
+.transform img:hover{
+    transform: scale(0.5);
+}
+.productOriginalss{
+    width: 85%;
+    height: 300px;
+    border-radius: 3px;
+    margin: 2rem auto;
+    border: 1px solid black;
+    overflow: hidden;
+
+}
+.productOriginalss img{
+    width: 100%;
+    height: 20rem;
+    transition: transform 0.5s ease;
+}      
+.productOriginalss img:hover{
+    transform: scale(1.1);
 }
 .milkImg img{
     width: 100%;
