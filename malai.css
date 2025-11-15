@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(236, 234, 229);
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
 }
@@ -133,6 +133,49 @@ html {
 }
 
 /* body css */
+.bigImg{
+    border: 1px solid red;
+    width: 98%;
+    margin: 0% auto;
+    height: 95vh;
+}
+.bigImg img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    text-align: center;
+    font-size: large;
+    padding: 5rem 20rem;
+    line-height: 2rem;
+}
+.viewCont{
+    border: 1px solid black;
+    width: 100%;
+    height: auto
+}
+.viewCont h1{
+    margin: 3rem;
+    font-size:3.5rem;
+    text-align: center;
+}
+.viewCont .viewDiv{
+    border: 1px solid red;
+    width: 85%;
+    margin: 0% auto;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+}
+.viewDiv .viewBox{
+    border: 1px solid blue;
+    width: 32%;
+    height: 75vh;
+}
+
 
 
 
