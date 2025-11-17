@@ -161,14 +161,14 @@ html {
     
 }
 .mainDivsl .slDIv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 45%;
     height: 30rem;
     margin: 2rem 0rem
 }
 
 .slDIv .ImgDiv1{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 80%;
     margin: 3rem auto;
     height: 25rem;
@@ -179,10 +179,10 @@ html {
 }
 
 .slDIv .ImgDiv2{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 87%;
-    margin: 1rem auto;
-    height: 28rem;
+    margin: 3rem auto;
+    height: auto;
     font-size: 1.3rem;
     line-height: 1.5rem;
 }
