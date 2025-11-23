@@ -193,11 +193,11 @@ html {
     text-align: center;
 }
 .products{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* height: 40rem; */
 }
 .ProductContainer{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 85%;
     margin: 0rem auto;
     display: flex;
@@ -206,7 +206,7 @@ html {
     padding: 20px;
 }
 .iceCreamCard{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     width: 23%;
     height: 22rem;
     margin-left: 13px;
@@ -234,11 +234,11 @@ html {
     margin: 1.7rem;
 } 
 .iceCreamCard .abc{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 .iceCreamCard .xyz{
     text-align: center;
-    border: 1px solid rgb(128, 0, 96);
+    /* border: 1px solid rgb(128, 0, 96); */
     display: none;
     position: absolute;
     bottom: 0.2rem;
@@ -268,14 +268,14 @@ html {
 }
 .now{
     width: 100%;
-    border: 1px solid greenyellow;
+    /* border: 1px solid greenyellow; */
     margin-bottom: 5rem;
 
 }
 .nowJs{
     width: 85%;
     margin: 2rem auto;
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     overflow: hidden;
     
 }
@@ -295,12 +295,12 @@ html {
     
 }
 .ingrStory{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 25rem;
     margin-top: 5rem;
 }
 .conting{
-    border: 1px solid rgb(255, 0, 13);
+    /* border: 1px solid rgb(255, 0, 13); */
     height:25rem;
     margin: 0px auto;
     width: 85%;
@@ -308,14 +308,14 @@ html {
     gap: 20px;
 }
 .storyCont{
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     width: 30%;
     height: 25rem;
     margin: 0rem auto;
     text-align: center;
 }
 .transform{
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .transform img{
@@ -340,7 +340,7 @@ html {
     height: 300px;
     border-radius: 3px;
     margin: 2rem auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     overflow: hidden;
 
 }
@@ -366,7 +366,7 @@ html {
     color: black;
 }
 .insta{
-    border: 2px solid navy;
+    /* border: 2px solid navy; */
     height: 16rem;
     margin-top: 35px;
     display: flex;
@@ -374,7 +374,7 @@ html {
     width: 100%;
 }
 .linkImg{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 16rem;
     width: 16rem;
 }
@@ -580,7 +580,7 @@ html {
     
 }
 .Top{
-    border: 1px solid rgb(248, 242, 242);
+    /* border: 1px solid rgb(248, 242, 242); */
     width: 3rem;
     height: 3rem;
     text-align: center;
